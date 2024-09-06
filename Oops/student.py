@@ -1,8 +1,14 @@
 
 # class [design pattern,template,blueprint]
-# object | instance [real worl entity]
+# object | instance [real world entity]
+# self - current instance
 
-class student:
+
+# constructors - initialise instance variable
+# __init__() - constructor
+# __str__() - str representation 
+
+class Student:
 
     name:str
     age:int
@@ -10,7 +16,7 @@ class student:
     contact:int
     course:str
 
-    def set_stud(self,name,age,gender,contact,course):
+    def __init__(self,name,age,gender,contact,course):
 
         self.name=name
         self.age=age
@@ -25,7 +31,6 @@ class student:
 
 # creating objects
 
-stud_obj=student()
+stud_obj=Student("hari",20,"male",4567890,"django developer")
 
-stud_obj.set_stud("hari",20,"male",4567890,"django developer")
 stud_obj.display_stud()
