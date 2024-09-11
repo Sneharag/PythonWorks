@@ -1,13 +1,4 @@
 
-# class [design pattern,template,blueprint]
-# object | instance [real world entity]
-# self - current instance
-
-
-# constructors - initialise instance variable
-# __init__() - constructor
-# __str__() - str representation 
-
 class Student:
 
     name:str

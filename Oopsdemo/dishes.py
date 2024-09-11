@@ -1,8 +1,4 @@
 
-# dishes(name,price,qty)
-# Restraunt
-
-
 class Dishes:
 
     name:str
